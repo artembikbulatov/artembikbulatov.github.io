@@ -13,7 +13,7 @@ h1.shadow1{
 }
 
 body{
-    font-family: 'Lora', serif;
+    font-family: 'Lora', sans-serif;
     background: fixed url("../img/fon-image.jpg") no-repeat;
     background-size: cover;
     margin: 20px;
@@ -55,4 +55,17 @@ body{
 /*селекторы атрибутов*/
 input [type=]{
 
+}
+
+footer{
+    color: #fff;
+    font-style: italic;
+    height: 50px;
+    padding-top: 1px;
+    text-align: center;
+    width: 100%;
+}
+
+hr{
+    width: 100%;
 }
