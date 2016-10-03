@@ -1,0 +1,58 @@
+@import 'https://fonts.googleapis.com/css?family=Lora';
+
+/*селекторы тегов*/
+h1.shadow1{
+    background-color: #000;
+        padding: 15px 0;
+        margin: 15px auto;
+        font-family: Garamond;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        color: #fff;
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+}
+
+body{
+    font-family: 'Lora', serif;
+    background: fixed url("../img/fon-image.jpg") no-repeat;
+    background-size: cover;
+    margin: 20px;
+    margin: 100px;
+}
+
+
+#link1:hover {
+  transform: scaleX(1.1);
+  color: #CB93DB;
+}
+
+#link2:hover {
+  transform: scaleX(1.1);
+  color: #CB93DB;
+}
+
+#link3:hover {
+  transform: scaleX(1.1);
+  color: #CB93DB;
+}
+
+#link4:hover {
+  transform: scaleX(1.1);
+  color: #CB93DB;
+}
+
+/*id селекторы */
+#first{
+    color: #3B41FF;
+}
+
+/*селекторы классов*/
+.active{
+
+    background: #49D6C6;
+}
+
+/*селекторы атрибутов*/
+input [type=]{
+
+}
